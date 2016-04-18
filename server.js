@@ -11,6 +11,16 @@ server.connection({
     port: 3000 
 });
 
+// Setup our initial route 
+server.route({
+    method: 'GET',
+    path:'/menu', 
+    handler: function (request, reply) {
+    	// listen and respond to the browser request
+        return reply('Welcome to the best pizza API in town');
+    }
+});
+
 // Start the server
 server.start((err) => {
     console.log('Server running at:', server.info.uri);
