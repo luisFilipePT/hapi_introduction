@@ -1,0 +1,25 @@
+{
+  "name": "hapipizza",
+  "version": "1.0.0",
+  "description": "the best pizza API in town",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisFilipePT/hapi_introduction.git"
+  },
+  "keywords": [
+    "node",
+    "hapi",
+    "pizza",
+    "API"
+  ],
+  "author": "Luis Fílipe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luisFilipePT/hapi_introduction/issues"
+  },
+  "homepage": "https://github.com/luisFilipePT/hapi_introduction#readme"
+}
