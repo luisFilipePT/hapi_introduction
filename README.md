@@ -4,7 +4,7 @@ Node Rest API using Hapi
 
 [![hapi Logo](http://hapijs.com/public/img/logo.svg)](http://hapijs.com/)
 
-Tutoria REST server api using [hapi](http://hapijs.com) and [node](http://nodejs.org).
+Tutorial on creating a REST server api using [hapi](http://hapijs.com) and [node](http://nodejs.org).
 
 ## Installation
 
@@ -19,7 +19,7 @@ $ node server.js
 
 ## API Docs
 
-Navigate to [documentation](localhost:3000/documentation) 
+Navigate to [documentation](http://localhost:3000/documentation) 
 
 ## People
 
