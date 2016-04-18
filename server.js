@@ -2,6 +2,9 @@
 
 const Hapi = require('hapi');
 
+// Require the JSON file that mimics the database
+var menuDB = require('./menu.json');
+
 // Create a new server instance
 const server = new Hapi.Server();
 
@@ -17,7 +20,7 @@ server.route({
     path:'/menu', 
     handler: function (request, reply) {
     	// listen and respond to the browser request
-        return reply('Welcome to the best pizza API in town');
+        return reply(menuDB);
     }
 });
 
