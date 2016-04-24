@@ -23,6 +23,10 @@
   },
   "homepage": "https://github.com/luisFilipePT/hapi_introduction#readme",
   "dependencies": {
-    "hapi": "^13.3.0"
+    "hapi": "^13.3.0",
+    "hapi-swagger": "^5.0.1",
+    "inert": "^3.2.0",
+    "jsonfile": "^2.3.0",
+    "vision": "^4.1.0"
   }
 }
